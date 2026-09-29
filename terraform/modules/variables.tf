@@ -3,3 +3,8 @@ variable "subscription_id" {
     description = "Subscription ID"
   
 }
+
+variable "location" {
+  type = string
+  description = "Location of my azure account"
+}
